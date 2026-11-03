@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 280">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7F1E8"/>
+      <stop offset="1" stop-color="#EDE2D4"/>
+    </linearGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFD9E8"/>
+      <stop offset="1" stop-color="#DDEBF2"/>
+    </linearGradient>
+  </defs>
+  <rect width="375" height="280" fill="url(#wall)"/>
+  <rect y="212" width="375" height="68" fill="#D9C6AC"/>
+  <rect y="208" width="375" height="6" fill="#C9B294"/>
+  <!-- 窗 -->
+  <rect x="236" y="38" width="104" height="120" rx="6" fill="url(#win)" stroke="#B89D7C" stroke-width="5"/>
+  <line x1="288" y1="42" x2="288" y2="154" stroke="#B89D7C" stroke-width="4"/>
+  <circle cx="262" cy="70" r="12" fill="#F5E2B8" opacity="0.9"/>
+  <path d="M240 128 l24 -22 18 14 22 -26 32 34 z" fill="#9FC4A8" opacity="0.85"/>
+  <!-- 床头板 -->
+  <rect x="24" y="74" width="180" height="86" rx="10" fill="#8C6F52"/>
+  <!-- 床 -->
+  <rect x="14" y="150" width="200" height="62" rx="10" fill="#FFFFFF"/>
+  <rect x="14" y="150" width="200" height="18" rx="9" fill="#EFE7DB"/>
+  <rect x="14" y="196" width="200" height="16" fill="#E4D6C2"/>
+  <!-- 枕头 -->
+  <rect x="34" y="126" width="66" height="30" rx="9" fill="#FBF8F3" stroke="#E3D9CB" stroke-width="2"/>
+  <rect x="112" y="126" width="66" height="30" rx="9" fill="#FBF8F3" stroke="#E3D9CB" stroke-width="2"/>
+  <!-- 床旗 -->
+  <rect x="14" y="176" width="200" height="16" fill="#A8846A"/>
+  <!-- 床头柜 + 灯 -->
+  <rect x="226" y="168" width="52" height="44" rx="5" fill="#7E6248"/>
+  <rect x="243" y="136" width="8" height="32" fill="#5C4632"/>
+  <path d="M231 136 h32 l-7 -18 h-18 z" fill="#E8B04B"/>
+  <!-- 绿植 -->
+  <path d="M330 212 c-4 -26 6 -42 14 -50 c2 16 0 34 -6 50 z" fill="#7FA98B"/>
+  <path d="M334 212 c-14 -18 -14 -36 -10 -48 c10 10 16 30 14 48 z" fill="#6B9478"/>
+  <rect x="324" y="210" width="26" height="20" rx="4" fill="#B78B62"/>
+  <!-- 挂画 -->
+  <rect x="96" y="30" width="52" height="40" rx="4" fill="#FFFFFF" stroke="#C9B294" stroke-width="3"/>
+  <path d="M100 62 l14 -16 10 8 12 -12 12 20 z" fill="#9FC4A8"/>
+</svg>

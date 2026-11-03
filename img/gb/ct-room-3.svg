@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 280">
+  <defs>
+    <linearGradient id="wall3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3EFEA"/>
+      <stop offset="1" stop-color="#E6DED3"/>
+    </linearGradient>
+    <linearGradient id="win3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CBE4DA"/>
+      <stop offset="1" stop-color="#E2F0E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="375" height="280" fill="url(#wall3)"/>
+  <rect y="210" width="375" height="70" fill="#D8CBB8"/>
+  <rect y="206" width="375" height="6" fill="#C4B49D"/>
+  <!-- 圆窗 -->
+  <circle cx="292" cy="92" r="52" fill="url(#win3)" stroke="#A8917A" stroke-width="5"/>
+  <path d="M248 116 c14 -18 30 -26 44 -26 c18 0 34 10 44 26 l0 24 -88 0 z" fill="#8FB8A2" opacity="0.9"/>
+  <circle cx="276" cy="74" r="9" fill="#F5E2B8" opacity="0.9"/>
+  <!-- 软包床头板 -->
+  <rect x="22" y="66" width="196" height="96" rx="14" fill="#9A7B5F"/>
+  <line x1="72" y1="70" x2="72" y2="158" stroke="#86694F" stroke-width="4"/>
+  <line x1="122" y1="70" x2="122" y2="158" stroke="#86694F" stroke-width="4"/>
+  <line x1="172" y1="70" x2="172" y2="158" stroke="#86694F" stroke-width="4"/>
+  <!-- 大床 -->
+  <rect x="12" y="152" width="216" height="60" rx="10" fill="#FFFFFF"/>
+  <rect x="12" y="152" width="216" height="18" rx="9" fill="#F0E9DF"/>
+  <rect x="12" y="198" width="216" height="14" fill="#E2D5C1"/>
+  <rect x="12" y="172" width="216" height="14" fill="#B48A62"/>
+  <rect x="30" y="128" width="80" height="28" rx="10" fill="#FBF8F3" stroke="#E3D9CB" stroke-width="2"/>
+  <rect x="122" y="128" width="80" height="28" rx="10" fill="#FBF8F3" stroke="#E3D9CB" stroke-width="2"/>
+  <!-- 抱枕 -->
+  <rect x="52" y="118" width="34" height="18" rx="6" fill="#C97B4A"/>
+  <rect x="140" y="118" width="34" height="18" rx="6" fill="#7FA98B"/>
+  <!-- 边柜 -->
+  <rect x="240" y="164" width="58" height="46" rx="5" fill="#7E6248"/>
+  <circle cx="269" cy="187" r="3" fill="#E8DCC8"/>
+  <!-- 香薰 -->
+  <rect x="258" y="146" width="10" height="18" rx="3" fill="#C9B294"/>
+  <path d="M263 140 c3 -4 -2 -6 1 -10 M263 140 c4 -2 6 -6 4 -10" stroke="#B8A388" stroke-width="2" fill="none"/>
+</svg>
